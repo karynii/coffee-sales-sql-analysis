@@ -241,12 +241,6 @@ Future versions of this project could include:
 
 **Veronica M**
 
-Aspiring Data Analyst with interests in:
+Data Enthusiast 
 
-- SQL
-- Data Analytics
-- Business Intelligence
-- Power BI
-- Python
 
-Connect with me on GitHub to view more data analytics projects.
