@@ -111,3 +111,103 @@ performance in February, March and October
 and replicate successful strategies during
 weaker months.
 */
+
+-- Question 4
+-- Which weekday generates the most revenue?
+
+SELECT
+    Weekday,
+    ROUND(SUM(money),2) AS revenue
+FROM coffee_sales
+GROUP BY Weekday
+ORDER BY revenue DESC;
+
+/*
+Insight:
+
+1. Tuesday generated the highest revenue
+   at 18,168.38.
+
+2. Sunday generated the lowest revenue
+   at 13,336.06.
+
+3. Weekday revenue consistently exceeds
+   weekend revenue.
+
+4. Customer purchasing behavior appears
+   to be driven by workday routines.
+
+Business Recommendation:
+
+Focus marketing campaigns and staffing
+strategies around high-performing weekdays,
+particularly Tuesday and Monday.
+*/
+
+-- Question 5
+-- Which time of day generates the most revenue?
+
+SELECT
+    Time_of_Day,
+    ROUND(SUM(money),2) AS revenue
+FROM coffee_sales
+GROUP BY Time_of_Day
+ORDER BY revenue DESC;
+
+/*
+Insight:
+
+1. Night generated the highest revenue
+   at 38,186.34.
+
+2. Afternoon closely followed with
+   revenue of 38,130.04.
+
+3. Revenue is evenly distributed across
+   Morning, Afternoon and Night periods.
+
+4. Contrary to common expectations,
+   Morning is the lowest-performing period.
+
+Business Recommendation:
+
+Maintain staffing levels throughout the day,
+as customer demand remains consistently strong
+across all operating periods.
+*/
+
+-- Question 6
+-- Which hour generates the most revenue?
+
+SELECT
+    hour_of_day,
+    ROUND(SUM(money),2) AS revenue
+FROM coffee_sales
+GROUP BY hour_of_day
+ORDER BY revenue DESC;
+
+/*
+Insight:
+
+1. 10 AM generated the highest revenue
+   at 10,198.52.
+
+2. Revenue shows two distinct peaks:
+   - Morning (8 AM–11 AM)
+   - Evening (4 PM–7 PM)
+
+3. Revenue at 6 AM is extremely low,
+   generating only 149.40.
+
+4. Sales remain relatively stable
+   throughout most operating hours.
+
+Business Recommendation:
+
+Increase staffing during 8 AM–11 AM
+and 4 PM–7 PM.
+
+Evaluate whether opening at 6 AM
+is operationally justified given
+the low revenue generated.
+*/
