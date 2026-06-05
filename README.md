@@ -1,4 +1,4 @@
-# ☕ Coffee Sales Analysis Using MySQL
+#  Coffee Sales Analysis Using MySQL
 
 ## Project Overview
 
