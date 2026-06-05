@@ -4,7 +4,7 @@
 
 This project analyzes coffee shop sales transactions using MySQL to uncover business insights related to product performance, sales trends, customer purchasing behavior, and revenue generation.
 
-The objective was to simulate the work of a Junior Data Analyst by performing data cleaning, exploratory analysis, business analysis, and advanced SQL analysis using real-world transaction data.
+
 
 ---
 
