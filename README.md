@@ -62,11 +62,11 @@ coffee-sales-sql-analysis
 │   └── Coffee_sales.csv
 │
 ├── SQL
-│   ├── 01_database_setup.sql
-│   ├── 02_data_cleaning.sql
-│   ├── 03_exploratory_analysis.sql
-│   ├── 04_business_questions.sql
-│   └── 05_advanced_analysis.sql
+│   ├── database_setup.sql
+│   ├── data_cleaning.sql
+│   ├── exploratory_analysis.sql
+│   ├── business_questions.sql
+│   └── advanced_analysis.sql
 │
 ├── Results
 │
@@ -239,7 +239,7 @@ Future versions of this project could include:
 
 # Author
 
-**Dawn Samuel**
+**Veronica M**
 
 Aspiring Data Analyst with interests in:
 
